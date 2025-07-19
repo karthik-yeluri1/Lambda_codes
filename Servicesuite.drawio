@@ -1,0 +1,143 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
+  <diagram name="Page-1" id="Q6oTVFZrfMEef6UHWf9Q">
+    <mxGraphModel dx="3432" dy="1405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #171717)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WohyFL5UpnvX24KDRhlT-34" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="252" y="220" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WohyFL5UpnvX24KDRhlT-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-1" value="ingestion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="10" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WohyFL5UpnvX24KDRhlT-3" target="WohyFL5UpnvX24KDRhlT-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-3" value="s3_raw" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="90" width="116" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WohyFL5UpnvX24KDRhlT-20" target="WohyFL5UpnvX24KDRhlT-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-20" value="Glue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WohyFL5UpnvX24KDRhlT-23" target="WohyFL5UpnvX24KDRhlT-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-23" value="s3_mirror" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WohyFL5UpnvX24KDRhlT-27" target="WohyFL5UpnvX24KDRhlT-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-27" value="Redshift" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-29" value="powerBI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-37" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Step function&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="329" y="180" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WohyFL5UpnvX24KDRhlT-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-68" value="Data from source will land into the S3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="708" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WohyFL5UpnvX24KDRhlT-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-71" value="The data is processed through glue with respective of source name by using step function as a orchestrating tool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="790" width="620" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-72" value="Step function will have crawlers and glue jobs are set by parallel/sequential way and the&lt;br&gt;&amp;nbsp;step functions are setup in event trigger/time based trigger" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="785" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.491;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WohyFL5UpnvX24KDRhlT-72" target="WohyFL5UpnvX24KDRhlT-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WohyFL5UpnvX24KDRhlT-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-75" value="the processed data from the mirror layer will copied into the redshift by source name&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="858" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-77" value="The stored procedures are triggered by the stepfunctions using glue in redshift" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="918" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-78" value="Staging tables" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="858" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WohyFL5UpnvX24KDRhlT-78" target="WohyFL5UpnvX24KDRhlT-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WohyFL5UpnvX24KDRhlT-80" target="WohyFL5UpnvX24KDRhlT-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-80" value="Final data to analytics team" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="918" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-83" value="ELT/The logic is behind the SQL queries" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1020" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-85" value="Glue raw_crawler will identify the metadata of raw data in s3 raw and stores in glue catalog&lt;div&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="220" width="510" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-86" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="160" width="490" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WohyFL5UpnvX24KDRhlT-88" target="WohyFL5UpnvX24KDRhlT-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-88" value="Raw crawler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1875" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WohyFL5UpnvX24KDRhlT-90" target="WohyFL5UpnvX24KDRhlT-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-90" value="Glue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1875" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-91" value="MirrorCrawler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1875" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.009;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WohyFL5UpnvX24KDRhlT-93" target="WohyFL5UpnvX24KDRhlT-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-93" value="Copy to redshift" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1875" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-94" value="Mirror_crawler will identify the metadata in processed files in s3 mirror and stoes in glue catalog" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="425" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-95" value="copy the files in s3 mirror to redshift according to source names" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="525" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-96" value="process the raw files according to source names it will store the processed files in s3 mirror" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="325" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.653;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WohyFL5UpnvX24KDRhlT-91" target="WohyFL5UpnvX24KDRhlT-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WohyFL5UpnvX24KDRhlT-98" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;STEP FUNCTION&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="100" width="240" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
